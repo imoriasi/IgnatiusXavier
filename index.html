@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>New application</title>
@@ -10,8 +11,32 @@
     <h1 id="title">Survey Form</h1>
     <p id="description">Description of survey form</p>
     <form id="survey-form">
-        <input id="name" type="text"/>
-        <input id="email" type="email"/>
+        <label id="name-label">Name:</label>
+        <input id="name" placeholder="Inser Your Name.." type="text"/>
+        <label id="email-label">Email:</label>
+        <input id="email" placeholder="Inser Your Email.." type="email"/>
+        <label id="number-label">Number:</label>
+        <input id="number" type="number" placeholder="Inser a Number.." max="1000" min="2"/>
+        <select id="drodown">
+            <option>Option 1</option>
+            <option>Option 2</option>
+            
+        </select>
+        <div>
+            <input type="radio" name="format" id="txt" value="txt" checked>
+            <label for="txt">Text file</label>
+          </div>
+          <div>
+            <input type="radio" name="format" id="csv" value="csv">
+            <label for="csv">CSV file</label>
+          </div>
+       <fieldset value="field">
+
+       </fieldset>
+       <textarea>
+
+       </textarea>
+       <button id="submit"></button>
     </form>
 </body>
 </html>
