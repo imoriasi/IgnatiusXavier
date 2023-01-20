@@ -12,24 +12,40 @@
     <p id="description">Description of survey form</p>
     <form id="survey-form">
         <label id="name-label">Name:</label>
-        <input id="name" placeholder="Inser Your Name.." type="text"/>
+        <input id="name" required placeholder="Inser Your Name.." type="text"/>
         <label id="email-label">Email:</label>
-        <input id="email" placeholder="Inser Your Email.." type="email"/>
+        <input id="email" required placeholder="Inser Your Email.." type="email"/>
         <label id="number-label">Number:</label>
-        <input id="number" type="number" placeholder="Inser a Number.." max="1000" min="2"/>
-        <select id="drodown">
+        <input id="number" required type="number" placeholder="Inser a Number.." max="1000" min="2"/>
+        <select id="dropdown">
             <option>Option 1</option>
             <option>Option 2</option>
             
         </select>
         <div>
-            <input type="radio" name="format" id="txt" value="txt" checked>
+            <input type="radio" name="format" id="txt" value="txt" >
             <label for="txt">Text file</label>
           </div>
           <div>
-            <input type="radio" name="format" id="csv" value="csv">
+            <input type="radio" name="format" id="txt" value="txt" >
             <label for="csv">CSV file</label>
           </div>
+</br> 
+<label> Front-end Projects</label><br>
+<input type="checkbox"  name="value" id="value"  value="back-end projects">
+<label>Back-end Projects</label><br>
+<input type="checkbox"  name="value" id="value"  value="Data visualization">
+<label>Data Visualization</label><br>
+<input type="checkbox"  name="value" id="value"   value="challanges">
+<label>Challenges</label><br>
+<input type="checkbox"  name="value" id="value"  value="open source community">
+<label>Open Source Community</label><br>
+<input type="checkbox"  name="value"  id="value" value="gitter help rooms">
+<label>Gitter help rooms</label><br>
+<input type="checkbox"  name="value" id="value"  value="videos">
+<label>Videos</label><br>        
+
+<label>Gitter help rooms</label><br>
        <fieldset value="field">
 
        </fieldset>
